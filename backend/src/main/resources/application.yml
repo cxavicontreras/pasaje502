@@ -1,0 +1,23 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: marketplace-api
+  datasource:
+    # Sin contraseña por defecto: se toma siempre de DB_PASSWORD (ver .env.example).
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/marketplace}
+    username: ${DB_USERNAME:marketplace}
+    password: ${DB_PASSWORD}
+  flyway:
+    # Solo el esquema. El perfil "dev" agrega el seed de prueba.
+    locations: classpath:db/migration
+  jackson:
+    # Los precios (BigDecimal) salen como número JSON, nunca como string.
+    generator:
+      write-bigdecimal-as-plain: true
+
+app:
+  cors:
+    # Lista separada por comas. Ej.: http://localhost:5173,http://localhost:3000
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}

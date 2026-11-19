@@ -1,0 +1,4 @@
+spring:
+  flyway:
+    # En desarrollo se agrega la migración repetible con datos ficticios.
+    locations: classpath:db/migration,classpath:db/dev
