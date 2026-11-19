@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#fbf0d2"/>
+<ellipse cx="300" cy="524" rx="150" ry="16" fill="#14211d" opacity=".1"/>
+<g transform="rotate(-22 300 520)">
+<rect x="286" y="300" width="28" height="210" rx="12" fill="#1f2d29"/>
+<rect x="280" y="246" width="40" height="62" rx="5" fill="#f2b233"/>
+<path d="M280 250c-18-60-4-112 20-130 24 18 38 70 20 130Z" fill="#e2664b"/>
+</g>
+<g transform="rotate(22 300 520)">
+<rect x="286" y="300" width="28" height="210" rx="12" fill="#1f2d29"/>
+<rect x="280" y="246" width="40" height="62" rx="5" fill="#f2b233"/>
+<path d="M280 250l-8-96 56-36-8 132Z" fill="#0a6b54"/>
+</g>
+<g transform="rotate(0 300 520)">
+<rect x="286" y="300" width="28" height="210" rx="12" fill="#1f2d29"/>
+<rect x="280" y="246" width="40" height="62" rx="5" fill="#f2b233"/>
+<path d="M280 250l-10-110h60l-10 110Z" fill="#b84a33"/>
+</g>
+</svg>
